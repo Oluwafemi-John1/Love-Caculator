@@ -1,11 +1,14 @@
 var song = new Audio('audio/positive.mp3')
 function calc(){
-    
+   
     var input1 = userInput1.value
     var input2 = userInput2.value
     
     var ans = Math.random()*100
     var result = `${Math.round(ans)}%`
+    userInput1.value =""
+    userInput2.value =""
+    
 
     if(input1 == ''){
        disp.innerHTML = 'You must input a value'
@@ -53,8 +56,7 @@ function calc(){
         disp.innerHTML = result
         
     }
-    userInput1.value =""
-    userInput2.value =""
+  
     
  
 
