@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
+    rel="stylesheet"
+  />
+  <script defer async
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
+  ></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    
+<h1 class="text-center mt-lg-3">Love Calculator<img src="Images/love.png" alt="" srcset=""></h1>
+<div class="container-fluid mt-lg-4  text-center col-sm-6 shadow rounded py-3">
+    <p class="text-danger"><i>check if you and your lover have a future together!</i></p>
+    <div class="row mt-4">
+        <div class="col-6">
+            <input type="text"  class="form-control col-6 col-sm-6" placeholder="Player Name"
+            id="userInput1"/>
+           
+        </div>  
+
+        <div class="col-6">
+            <input type="text"  class="form-control col-6 col-sm-6" placeholder="Lover Name"
+            id="userInput2"/>
+          
+        </div>
+    </div>
+    
+    <div>
+        <button onclick="calc()" class="btn btn-lg btn-info mt-5">Calculate</button>
+    </div>
+     
+</div>
+<div class="bg-info col-sm-6 shadow-sm mx-auto rounded mt-5">
+<div class="text-center  mt-5" id="disp"></div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
